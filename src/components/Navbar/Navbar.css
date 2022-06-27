@@ -1,0 +1,20 @@
+.navbar-container {
+  display: flex !important;
+  justify-content: space-between !important;
+  z-index: 5 !important;
+  width: 100% !important;
+  background-color: #83a4d4 !important;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100% !important;
+  margin: 0 auto !important;
+  background: linear-gradient(to right, #83a4d4) !important;
+}
+
+.active {
+  color: darkblue;
+}

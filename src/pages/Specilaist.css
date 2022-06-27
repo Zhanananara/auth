@@ -1,0 +1,30 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin: 5%;
+  font-family: "DM Sans", sans-serif !important;
+}
+@media all and (max-width: 1286px) {
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 800px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
+
+.logo {
+  background: linear-gradient(to right, #1c92d2, #f2fcfe) !important;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.spec {
+  font-family: "DM Sans", sans-serif !important;
+}

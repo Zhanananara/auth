@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import MyRoutes from "./MyRoutes";
+import "./App.css";
+import AuthContextProvider from "./components/context/AuthContextProvider";
+import Toastify from "./components/Toastify/Toastify";
+import ProductContextProvider from "./components/context/ProductContextProvide";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AuthContextProvider>
+        <ProductContextProvider>
+          <Toastify />
+          <MyRoutes />
+        </ProductContextProvider>
+      </AuthContextProvider>
     </div>
   );
 }

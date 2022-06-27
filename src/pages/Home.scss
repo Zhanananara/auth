@@ -1,0 +1,57 @@
+.text-content {
+  line-height: 1.5em;
+  margin: 4% 20%;
+  text-align: center;
+  font-weight: bold;
+  // font-family: "Libre Caslon Display", serif;
+
+  font-size: 1.5rem;
+}
+
+.content {
+  // background: linear-gradient(to right, #1c92d2, #f2fcfe) !important;
+  background-color: #b2d8f8 !important;
+}
+
+.main-content {
+  margin: 5%;
+  color: #030304 !important;
+  font-family: "Zilla Slab", serif !important;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  margin: 6%;
+  width: 80%;
+  font-size: 3rem !important;
+}
+
+.card-info {
+  width: 300px !important;
+  height: 350px;
+  li {
+    color: black !important;
+  }
+}
+.card-info:hover {
+  background-color: #83a4d4;
+  color: white;
+  li {
+    color: white !important;
+  }
+}
+
+.title {
+  color: white;
+}
+
+.text-p {
+  color: white;
+}
+.spec {
+  color: black !important;
+  font-size: 1.5rem;
+  font-family: "Zilla Slab";
+}
